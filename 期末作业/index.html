@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>SO FUNNN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            anchors: ['page1', 'page2', 'page3', 'page4', 'page5','pag6'],
+            menu: '#menu'
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <ul id="menu">
+        <li data-menuanchor="page1"><a href="#page1" title="SO FUN"><span>SO FUNNN</span></a></li>
+        <li data-menuanchor="page1"><a href="#page1" title="在中国"><span>在中国</span></a></li>
+        <li data-menuanchor="page2"><a href="#page2" title="在美国"><span>在美国</span></a></li>
+        <li data-menuanchor="page3"><a href="#page3" title="在韩国"><span>在韩国</span></a></li>
+        <li data-menuanchor="page4"><a href="#page4" title="在日本"><span>在日本</span></a></li>
+        <li data-menuanchor="page5"><a href="#page5" title="在法国"><span>在法国</span></a></li>
+        <li data-menuanchor="page5"><a href="#page6" title="在英国"><span>在英国</span></a></li>
+    </ul>
+
+
+   <div id="fullpage">
+    <div class="section SY">
+     <div class="bt">
+         <h1>SO FUNNN</h1>
+         </div> 
+         </div>
+    <div class="section"><h1>In China</h1></div>
+    <div class="section"><h1>In America</h1></div>
+    <div class="section"><h1>In Korea</h1></div>
+    <div class="section"><h1>In Japan</h1></div>
+    <div class="section"><h1>In France</h1></div>
+    <div class="section"><h1>In England</h1></div>
+</div>
+</body>
+
+</html>
